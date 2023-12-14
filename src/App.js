@@ -29,7 +29,7 @@ export default function App() {
     fetchData();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div>Loading......</div>;
 
   const getNext = async () => {
     const nextIndex = index + 1;
